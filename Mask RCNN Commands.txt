@@ -1,0 +1,18 @@
+Mask RCNN
+
+Create new environment with conda to use tensorflow version 1.x
+conda create --name tf_ig_1 python==3.7 pandas numpy tensorflow==1.15
+
+Activate environment
+conda activate env_name
+
+Install jupyter notebook
+pip install jupyter
+
+Commands for Mask RCNN
+git clone https://github.com/matterport/Mask_RCNN.git
+
+cd Mask_RCNN
+python setup.py install
+pip install keras==2.2.4 scikit-image matplotlib
+python detection_code.py
